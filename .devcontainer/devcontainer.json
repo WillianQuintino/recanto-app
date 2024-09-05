@@ -10,7 +10,7 @@
     "msjsdiag.vscode-react-native"
   ],
   "forwardPorts": [8081],
-  "postCreateCommand": "npm install",
+  "postCreateCommand": "npm install && npx expo start",
   "remoteUser": "node",
   "portsAttributes": {
     "8081": {
