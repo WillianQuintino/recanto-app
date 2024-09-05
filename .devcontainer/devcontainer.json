@@ -2,19 +2,39 @@
   "name": "React Native Development",
   "dockerFile": "Dockerfile",
   "settings": {
-    "terminal.integrated.shell.linux": "/bin/bash"
+    "terminal.integrated.shell.linux": "/bin/bash",
+    "EXPO_USE_FAST_RESOLVER": "1"
   },
   "extensions": [
-    "esbenp.prettier-vscode",
-    "dbaeumer.vscode-eslint",
     "msjsdiag.vscode-react-native"
   ],
-  "forwardPorts": [8081],
-  "postCreateCommand": "npm install && npx expo start",
+  "forwardPorts": [5554, 8081],
+  "postCreateCommand": "npm ci --prefer-offline --no-audit --no-progress --timing && npm i @expo/ngrok@^4.1.0",
+  "runArgs": ["--cap-add=SYS_PTRACE", "--security-opt=seccomp=unconfined"],
   "remoteUser": "node",
+  "mounts": [
+    "source=/sys/fs/cgroup,target=/sys/fs/cgroup,type=bind"
+  ],
+  "onStartCommand": [
+    "adb -s localhost:5554 wait-for-device",
+    "npm run android -- --port 5554 --tunnel"
+  ],
   "portsAttributes": {
+    "5554": {
+      "label": "Android Emulator"
+    },
     "8081": {
       "label": "React Native Metro Bundler"
+    }
+  },
+  "previews": {
+    "web": {
+      "command": ["npm", "run", "web", "--", "--port", "$PORT"],
+      "manager": "web"
+    },
+    "android": {
+      "command": ["tail", "-f", "/dev/null"],
+      "manager": "web"
     }
   }
 }
