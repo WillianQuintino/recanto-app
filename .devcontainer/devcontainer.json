@@ -1,0 +1,20 @@
+{
+  "name": "React Native Development",
+  "dockerFile": "Dockerfile",
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "extensions": [
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "msjsdiag.vscode-react-native"
+  ],
+  "forwardPorts": [8081],
+  "postCreateCommand": "npm install",
+  "remoteUser": "node",
+  "portsAttributes": {
+    "8081": {
+      "label": "React Native Metro Bundler"
+    }
+  }
+}
