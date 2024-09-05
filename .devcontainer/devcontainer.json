@@ -6,6 +6,8 @@
     "EXPO_USE_FAST_RESOLVER": "1"
   },
   "extensions": [
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
     "msjsdiag.vscode-react-native"
   ],
   "forwardPorts": [5554, 8081],
