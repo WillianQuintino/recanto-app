@@ -52,3 +52,65 @@ Join our community of developers creating universal apps.
 
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+--------
+# TODO:
+- [ ] **Home**
+  - [ ] Visão geral da missão e valores
+  - [ ] Destaques de eventos recentes
+  - [ ] Depoimentos de participantes
+
+- [ ] **Sobre Nós**
+  - [ ] História do Recanto
+  - [ ] Missão e valores
+  - [ ] Equipe e voluntários
+
+- [ ] **Atividades**
+  - [ ] Encontros espirituais
+  - [ ] Ações sociais
+  - [ ] Grupos de oração
+
+- [ ] **Projetos**
+  - [ ] Iniciativas beneficentes
+  - [ ] Projetos em andamento
+
+- [ ] **Eventos**
+  - [ ] Calendário de eventos
+  - [ ] Inscrição online
+     
+- [ ] **Coletânea de Orações**
+
+- [ ] **Doações**
+  - [ ] Como contribuir
+  - [ ] Relatórios financeiros
+
+- [ ] **Área de Membros**
+  - [ ] Login/Registro
+  - [ ] Perfil do Membro
+  - [ ] Acesso a conteúdos exclusivos
+  - [ ] Inscrição em eventos privados
+
+- [ ] **Contato**
+  - [ ] Informações de localização
+  - [ ] Formulário de contato online
+----
+# Bem-vindo ao Recanto do Amor Misericordioso
+
+## Missão e Valores
+Acolhendo com amor: Nossa missão é oferecer apoio espiritual e social, promovendo a fé católica.
+
+## Eventos Recentes
+- [Retiro Espiritual 2024]()
+- [Ação Social para Famílias Carentes]()
+
+## Testemunhos
+> "Participar dos encontros foi uma bênção para minha vida!" – Maria S.
+
+## Como Contribuir
+Participe e apoie nossa missão com sua doação.
+
+## Acesso Rápido
+- [Nossos Projetos]()
+- [Inscrição em Eventos]()
+- [Área de Membros]()
+
+  
