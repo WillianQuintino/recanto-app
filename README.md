@@ -86,6 +86,10 @@ Join our community of developers creating universal apps.
 - [ ] **Área de Membros**
   - [ ] Login/Registro
   - [ ] Perfil do Membro
+    - [ ] Missionarios
+    - [ ] Recantianos
+    - [ ] Pais
+    - [ ] Parceiros 
   - [ ] Acesso a conteúdos exclusivos
   - [ ] Inscrição em eventos privados
 
