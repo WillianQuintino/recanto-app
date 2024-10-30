@@ -82,6 +82,7 @@ Join our community of developers creating universal apps.
 - [ ] **Doações**
   - [ ] Como contribuir
   - [ ] Relatórios financeiros
+  - [ ] loja exclusiva
 
 - [ ] **Área de Membros**
   - [ ] Login/Registro
@@ -91,6 +92,11 @@ Join our community of developers creating universal apps.
     - [ ] Pais
     - [ ] Parceiros 
   - [ ] Acesso a conteúdos exclusivos
+    - [ ] Livros
+    - [ ] Videos
+    - [ ] Cursos
+    - [ ] Atividades
+    - [ ] Shows de prêmios com conferência automática da cartela pelo app.
   - [ ] Inscrição em eventos privados
 
 - [ ] **Contato**
