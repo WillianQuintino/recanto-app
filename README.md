@@ -34,3 +34,84 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+---
+
+# TODO:
+
+-  **Home**
+  
+  - [ ]  Visão geral da missão e valores
+  - [ ]  Destaques de eventos recentes
+  - [ ]  Depoimentos de participantes
+-  **Sobre Nós**
+  
+  - [ ]  História do Recanto
+  - [ ]  Missão e valores
+  - [ ]  Equipe e voluntários
+-  **Atividades**
+  
+  - [ ]  Encontros espirituais
+  - [ ]  Ações sociais
+  - [ ]  Grupos de oração
+-  **Projetos**
+  
+  - [ ]  Iniciativas beneficentes
+  - [ ]  Projetos em andamento
+-  **Eventos**
+  
+  - [ ]  Calendário de eventos
+  - [ ]  Inscrição online
+-  **Coletânea de Orações**
+  
+-  **Doações**
+  
+  - [ ]  Como contribuir
+  - [ ]  Relatórios financeiros
+  - [ ]  loja exclusiva
+-  **Área de Membros**
+  
+  - [ ]  Login/Registro
+  - [ ]  Perfil do Membro
+    - [ ]  Missionarios
+    - [ ]  Recantianos
+    - [ ]  Pais
+    - [ ]  Parceiros
+  - [ ]  Acesso a conteúdos exclusivos
+    - [ ]  Livros
+    - [ ]  Videos
+    - [ ]  Cursos
+    - [ ]  Atividades
+    - [ ]  Shows de prêmios com conferência automática da cartela pelo app.
+  - [ ]  Inscrição em eventos privados
+-  **Contato**
+  
+  - [ ]  Informações de localização
+  - [ ]  Formulário de contato online
+
+---
+
+# Bem-vindo ao Recanto do Amor Misericordioso
+
+## Missão e Valores
+
+Acolhendo com amor: Nossa missão é oferecer apoio espiritual e social, promovendo a fé católica.
+
+## Eventos Recentes
+
+- [Retiro Espiritual 2024](https://github.com/WillianQuintino/recanto-app/blob/main)
+- [Ação Social para Famílias Carentes](https://github.com/WillianQuintino/recanto-app/blob/main)
+
+## Testemunhos
+
+> "Participar dos encontros foi uma bênção para minha vida!" – Maria S.
+
+## Como Contribuir
+
+Participe e apoie nossa missão com sua doação.
+
+## Acesso Rápido
+
+- [Nossos Projetos](https://github.com/WillianQuintino/recanto-app/blob/main)
+- [Inscrição em Eventos](https://github.com/WillianQuintino/recanto-app/blob/main)
+- [Área de Membros](https://github.com/WillianQuintino/recanto-app/blob/main)
