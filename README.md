@@ -115,3 +115,26 @@ Participe e apoie nossa missão com sua doação.
 - [Nossos Projetos](https://github.com/WillianQuintino/recanto-app/blob/main)
 - [Inscrição em Eventos](https://github.com/WillianQuintino/recanto-app/blob/main)
 - [Área de Membros](https://github.com/WillianQuintino/recanto-app/blob/main)
+
+## 📚 Agradecimentos
+
+Este projeto utiliza e agradece às seguintes bibliotecas e ferramentas:
+
+- [daisyUI](https://daisyui.com) – Componentes UI para Tailwind CSS
+- [shadcn/ui](https://ui.shadcn.com) – Componentes acessíveis e estilizados para React
+- [Lucide](https://lucide.dev) – Ícones abertos em SVG
+- [Tauri](https://v2.tauri.app) – Framework para aplicações desktop com Rust e web
+- [Jotai](https://jotai.org) – Gerenciador de estado atômico para React
+- [Axios](https://axios-http.com) – Cliente HTTP baseado em Promises
+- [Zod](https://zod.dev) – Validação de esquemas TypeScript-friendly
+- [React Hook Form](https://www.react-hook-form.com) – Gerenciamento de formulários reativo
+- [SWR](https://swr.vercel.app/pt-BR) – Fetching de dados com cache e revalidação automática
+- [react-dropzone](https://react-dropzone.js.org) – Drag & drop de arquivos no React
+- [Tailwind Variants](https://www.tailwind-variants.org) – Variantes dinâmicas para Tailwind CSS
+- [Hero UI](https://www.heroui.com) – Componentes Tailwind gratuitos e premium
+- [bcrypt.js](https://github.com/dcodeIO/bcrypt.js) – Hash de senhas em JavaScript
+- [sqlite3 (Node)](https://www.npmjs.com/package/sqlite3) – Driver SQLite para Node.js
+- [localForage](https://localforage.github.io/localForage/) – Armazenamento offline assíncrono para web apps
+- [storybook](https://storybook.js.org) – Ferramenta para desenvolvimento, documentação e testes de componentes de interface de forma isolada
+
+> Todos os direitos pertencem aos respectivos autores e mantenedores. Este projeto apenas integra essas ferramentas conforme suas licenças.
