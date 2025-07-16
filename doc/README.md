@@ -8,15 +8,15 @@ Aqui está uma estrutura de pastas comprovada e uma estratégia de arquitetura q
 
 🔍 Princípios fundamentais:
 
-✅ [Estrutura de recursos em primeiro lugar (Feature-first structure)](../src/features/README.md)<br>
+✅ [Estrutura de recursos em primeiro lugar (Feature-first structure)](../src/features/)<br>
 → Organize componentes, serviços, tipos e testes por recurso, não por tipo de arquivo.
  features/products/, features/users/
 
-✅ [Sistema de interface do usuário reutilizável (Reusable UI system)](../src/components/README.md)<br>
+✅ [Sistema de interface do usuário reutilizável (Reusable UI system)](../src/components/)<br>
 → Componentes e layouts compartilhados residem em:
  components/common/, components/layouts/
 
-✅ [Camada de API tipada e modular (Typed modular API layer)](../services/README.md)<br>
+✅ [Camada de API tipada e modular (Typed modular API layer)](../services/)<br>
 → Limpe os clientes da API com tratamento de erros:
  services/apiClient.ts, utils/errorHandler.ts
 
@@ -24,11 +24,11 @@ Aqui está uma estrutura de pastas comprovada e uma estratégia de arquitetura q
 → Fatias modulares e ganchos digitados:
  store/slices/, store/hooks.ts
 
-✅ [Ganchos personalizados reutilizáveis (Reusable custom hooks)](../src/hooks/README.md)<br>
+✅ [Ganchos personalizados reutilizáveis (Reusable custom hooks)](../src/hooks/)<br>
 → Lógica de negócios abstraída para:
  hooks/useXyz.ts
 
-✅ [Sistema de estilo consistente (Consistent styling system)](../src/styles/README.md)<br>
+✅ [Sistema de estilo consistente (Consistent styling system)](../src/styles/)<br>
 → Módulos SCSS com temas globais:
  styles/variables.module.scss, styles/global.scss
 
@@ -36,7 +36,7 @@ Aqui está uma estrutura de pastas comprovada e uma estratégia de arquitetura q
 → Testes próximos a recursos/componentes:
  `__tests__`/ folders or *.test.tsx
 
-✅ [Organização de ativos e configuração (Assets and config organization)](../src/assets/README.md)<br>
+✅ [Organização de ativos e configuração (Assets and config organization)](../src/assets/)<br>
 → Arquivos estáticos e configurações de ambiente:
  assets/, config/routes.ts
 
