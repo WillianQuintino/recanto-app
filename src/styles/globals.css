@@ -4,7 +4,7 @@
 @plugin "daisyui";
 
 @plugin "daisyui/theme" {
-  name: "reacanto-light";
+  name: "recanto-light";
   default: true;
   prefersdark: false;
   color-scheme: light;
@@ -52,7 +52,7 @@
 }
 
 @plugin "daisyui/theme" {
-  name: "reacanto-dark";
+  name: "recanto-dark";
   default: false;
   prefersdark: true;
   color-scheme: dark;

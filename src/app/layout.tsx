@@ -24,15 +24,18 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html
+      lang="pt-br"
+      className="h-screen"
+    >
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-base-300 h-full`}
-        data-theme="reacanto-dark"
+        className={`${geistSans.variable} ${geistMono.variable} bg-base-100 antialiased h-full overflow-y-auto`}
+        data-theme="recanto-light"
       >
-        <header className="w-full sticky top-0 right-0 left-0">
+        <header className="w-full bg-base-100 shadow sticky top-0 right-0 left-0">
           <Navbar />
         </header>
-        <main className="h-full overflow-y-auto">
+        <main>
           {children}
         </main>
       </body>
