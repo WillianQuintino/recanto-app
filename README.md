@@ -90,6 +90,12 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
   
   - [ ]  Informações de localização
   - [ ]  Formulário de contato online
+
+-- **Outros**
+  - [ ] Sistema de gerenciamento de livros
+  - [ ] Postagem automatica nas redes sociais
+  - [ ] Mensagem automatica no WhatsApp
+  - [ ] Controle de conclusão da formação
 ```
 Site Católico (Comunidade / Congregação / ONG)
 ├── Início (Home)
