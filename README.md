@@ -90,6 +90,49 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
   
   - [ ]  Informações de localização
   - [ ]  Formulário de contato online
+```
+Site Católico (Comunidade / Congregação / ONG)
+├── Início (Home)
+│   └── Destaques / Notícias / Eventos em andamento
+├── Quem Somos
+│   ├── Missão
+│   ├── Visão
+│   ├── História
+│   └── Fundadores
+├── Espiritualidade / Carisma
+│   ├── Valores
+│   ├── Inspiração (ex: São Francisco, Inácio, etc.)
+│   └── Vida de Oração / Retiros / Liturgia
+├── Estrutura / Vida Comunitária
+│   ├── Organograma
+│   ├── Casas / Priorados / Núcleos
+│   └── Membros / Lideranças
+├── Formação / Vocacional
+│   ├── Como entrar
+│   ├── Etapas (Aspirantado, Postulantado, etc.)
+│   └── Agenda de encontros vocacionais
+├── Ações / Projetos / Evangelização
+│   ├── Projetos Sociais / Missionários
+│   ├── Eventos / Congressos
+│   └── Pastoral / Juventude / Família
+├── Mídia / Comunicação
+│   ├── Vídeos / Transmissões ao vivo
+│   ├── Blog / Notícias
+│   ├── Livraria / Loja virtual
+│   └── Redes sociais
+├── Doações / Apoie
+│   ├── Como ajudar
+│   ├── Pix / Boleto / Assinatura
+│   └── Transparência / Relatórios financeiros
+├── Contato
+│   ├── Fale conosco
+│   ├── Localização / Mapa / Horários
+│   └── Redes sociais / Newsletter
+└── Área do Membro (opcional)
+    ├── Documentos internos
+    ├── Formação contínua
+    └── Agenda privada
+```
 
 ---
 
