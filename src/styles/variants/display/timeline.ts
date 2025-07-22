@@ -1,5 +1,4 @@
 //DOC: https://daisyui.com/components/timeline/
-import { start } from "repl";
 import { tv } from "tailwind-variants";
 
 const timeline = tv({

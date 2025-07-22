@@ -1,5 +1,4 @@
 //DOC: https://daisyui.com/components/link/
-import { dir } from "console";
 import { tv } from "tailwind-variants";
 
 const menu = tv({

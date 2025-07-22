@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const feedbacks = [
@@ -49,7 +50,7 @@ const HeroCommunityFeedback = () => {
             aria-labelledby={`feedback-title-${id}`}
           >
             <div className="flex items-center mb-4">
-              <img
+              <Image
                 src={avatar}
                 alt={`Foto de ${name}`}
                 className="w-14 h-14 rounded-full mr-4"

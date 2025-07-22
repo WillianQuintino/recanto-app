@@ -22,8 +22,14 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
-import { authNavbar, logoNavbar, menuNavbar, mobileExtraLinksNavbar } from "@/config/routes";
+import {
+  authNavbar,
+  logoNavbar,
+  menuNavbar,
+  mobileExtraLinksNavbar,
+} from "@/config/routes";
 import SmartLink from "../common/SmartLink";
+import Image from "next/image";
 
 interface MenuItem {
   title: string;
@@ -69,7 +75,7 @@ const Navbar = ({
         <nav className="hidden justify-between lg:flex">
           <div className="flex items-center gap-6">
             <SmartLink href={logo.url} className="flex items-center gap-2">
-              <img src={logo.src} className="w-8" alt={logo.alt} />
+              <Image src={logo.src} className="w-8" alt={logo.alt} />
               <span className="text-lg font-semibold">{logo.title}</span>
             </SmartLink>
             <div className="flex items-center">
@@ -92,7 +98,7 @@ const Navbar = ({
         <div className="block lg:hidden">
           <div className="flex items-center justify-between">
             <a href={logo.url} className="flex items-center gap-2">
-              <img src={logo.src} className="w-8" alt={logo.alt} />
+              <Image src={logo.src} className="w-8" alt={logo.alt} />
               <span className="text-lg font-semibold">{logo.title}</span>
             </a>
             <Sheet>
@@ -104,8 +110,11 @@ const Navbar = ({
               <SheetContent className="overflow-y-auto">
                 <SheetHeader>
                   <SheetTitle>
-                    <SmartLink href={logo.url} className="flex items-center gap-2">
-                      <img src={logo.src} className="w-8" alt={logo.alt} />
+                    <SmartLink
+                      href={logo.url}
+                      className="flex items-center gap-2"
+                    >
+                      <Image src={logo.src} className="w-8" alt={logo.alt} />
                       <span className="text-lg font-semibold">
                         {logo.title}
                       </span>
@@ -135,10 +144,14 @@ const Navbar = ({
                   </div>
                   <div className="flex flex-col gap-3">
                     <Button asChild variant="outline">
-                      <SmartLink href={auth.login.url}>{auth.login.text}</SmartLink>
+                      <SmartLink href={auth.login.url}>
+                        {auth.login.text}
+                      </SmartLink>
                     </Button>
                     <Button asChild>
-                      <SmartLink href={auth.signup.url}>{auth.signup.text}</SmartLink>
+                      <SmartLink href={auth.signup.url}>
+                        {auth.signup.text}
+                      </SmartLink>
                     </Button>
                   </div>
                 </div>
@@ -165,7 +178,9 @@ const renderMenuItem = (item: MenuItem) => {
                     className="flex select-none gap-4 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground"
                     href={subItem.url}
                   >
-                    {subItem.icon && <subItem.icon className="size-5 shrink-0" />}
+                    {subItem.icon && (
+                      <subItem.icon className="size-5 shrink-0" />
+                    )}
                     <div>
                       <div className="text-sm font-semibold">
                         {subItem.title}
@@ -215,9 +230,7 @@ const renderMobileMenuItem = (item: MenuItem) => {
               <div>
                 <div className="text-sm font-semibold">{subItem.title}</div>
                 {subItem.description && (
-                  <p className="text-sm leading-snug">
-                    {subItem.description}
-                  </p>
+                  <p className="text-sm leading-snug">{subItem.description}</p>
                 )}
               </div>
             </SmartLink>
