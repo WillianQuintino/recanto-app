@@ -1,4 +1,4 @@
-import { Book, Sunset, Trees, Zap } from "lucide-react";
+import { Book, Star, Sunset, Trees, Zap } from "lucide-react";
 
 import Logo from "@/assets/img/logo.svg";
 
@@ -11,10 +11,16 @@ export const logoNavbar = {
 
 export const menuNavbar = [
   { title: "Início", url: "/" },
-  { 
+  {
     title: "Institucional",
     url: "#",
     items: [
+      {
+        title: "Nossa Senhora do Amor Misericordioso",
+        description: "Conheça nossa Mãe e Padroeira",
+        icon: Star, // ou Heart, Crown, etc.
+        url: "/nossa-senhora",
+      },
       {
         title: "Quem Somos",
         description: "Conheça nossa história e missão",
@@ -33,9 +39,9 @@ export const menuNavbar = [
         icon: Book,
         url: "#",
       },
-    ]      
+    ],
   },
-  { 
+  {
     title: "Missão",
     url: "#",
     items: [
@@ -50,10 +56,10 @@ export const menuNavbar = [
         description: "Participe de nossas ações e projetos",
         icon: Sunset,
         url: "#",
-      }
-    ]
+      },
+    ],
   },
-  { 
+  {
     title: "Mídia",
     url: "#",
     items: [
@@ -81,7 +87,7 @@ export const menuNavbar = [
         icon: Sunset,
         url: "#",
       },
-    ]
+    ],
   },
   { title: "Doações", url: "#" },
   { title: "Contato", url: "#" },
@@ -118,10 +124,10 @@ export const menuNavbar = [
 ];
 
 export const mobileExtraLinksNavbar = [
-    { name: "Press", url: "#" },
-    { name: "Contact", url: "#" },
-    { name: "Imprint", url: "#" },
-    { name: "Sitemap", url: "#" },
+  { name: "Press", url: "#" },
+  { name: "Contact", url: "#" },
+  { name: "Imprint", url: "#" },
+  { name: "Sitemap", url: "#" },
 ];
 
 export const authNavbar = {

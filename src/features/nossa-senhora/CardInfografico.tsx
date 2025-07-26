@@ -1,15 +1,7 @@
 // features/nossa-senhora/CardInfografico.tsx
 import { motion } from "framer-motion";
 import Lottie from "lottie-react";
-import { IconType } from "react-icons";
 import { infograficoData } from "./infograficoData";
-
-interface Props {
-  title: string;
-  text: string;
-  icon?: IconType;
-  lottieData?: object;
-}
 
 export default function CardInfografico(item: typeof infograficoData[number]) {
   const { id, title, body, icon: Icon, lottie: lottieData } = item;
