@@ -41,61 +41,69 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 # TODO:
 
--  **Home**
-  
-  - [ ]  Visão geral da missão e valores
-  - [ ]  Destaques de eventos recentes
-  - [ ]  Depoimentos de participantes
--  **Sobre Nós**
-  
-  - [ ]  História do Recanto
-  - [ ]  Missão e valores
-  - [ ]  Equipe e voluntários
--  **Atividades**
-  
-  - [ ]  Encontros espirituais
-  - [ ]  Ações sociais
-  - [ ]  Grupos de oração
--  **Projetos**
-  
-  - [ ]  Iniciativas beneficentes
-  - [ ]  Projetos em andamento
--  **Eventos**
-  
-  - [ ]  Calendário de eventos
-  - [ ]  Inscrição online
--  **Coletânea de Orações**
-  
--  **Doações**
-  
-  - [ ]  Como contribuir
-  - [ ]  Relatórios financeiros
-  - [ ]  loja exclusiva
--  **Área de Membros**
-  
-  - [ ]  Login/Registro
-  - [ ]  Perfil do Membro
-    - [ ]  Missionarios
-    - [ ]  Recantianos
-    - [ ]  Pais
-    - [ ]  Parceiros
-  - [ ]  Acesso a conteúdos exclusivos
-    - [ ]  Livros
-    - [ ]  Videos
-    - [ ]  Cursos
-    - [ ]  Atividades
-    - [ ]  Shows de prêmios com conferência automática da cartela pelo app.
-  - [ ]  Inscrição em eventos privados
--  **Contato**
-  
-  - [ ]  Informações de localização
-  - [ ]  Formulário de contato online
+- **Home**
+
+  - [ ] Visão geral da missão e valores
+  - [ ] Destaques de eventos recentes
+  - [ ] Depoimentos de participantes
+
+- **Sobre Nós**
+
+  - [ ] História do Recanto
+  - [ ] Missão e valores
+  - [ ] Equipe e voluntários
+
+- **Atividades**
+
+  - [ ] Encontros espirituais
+  - [ ] Ações sociais
+  - [ ] Grupos de oração
+
+- **Projetos**
+
+  - [ ] Iniciativas beneficentes
+  - [ ] Projetos em andamento
+
+- **Eventos**
+
+  - [ ] Calendário de eventos
+  - [ ] Inscrição online
+
+- **Coletânea de Orações**
+- **Doações**
+
+  - [ ] Como contribuir
+  - [ ] Relatórios financeiros
+  - [ ] loja exclusiva
+
+- **Área de Membros**
+
+  - [ ] Login/Registro
+  - [ ] Perfil do Membro
+    - [ ] Missionarios
+    - [ ] Recantianos
+    - [ ] Pais
+    - [ ] Parceiros
+  - [ ] Acesso a conteúdos exclusivos
+    - [ ] Livros
+    - [ ] Videos
+    - [ ] Cursos
+    - [ ] Atividades
+    - [ ] Shows de prêmios com conferência automática da cartela pelo app.
+  - [ ] Inscrição em eventos privados
+
+- **Contato**
+
+  - [ ] Informações de localização
+  - [ ] Formulário de contato online
 
 -- **Outros**
-  - [ ] Sistema de gerenciamento de livros
-  - [ ] Postagem automatica nas redes sociais
-  - [ ] Mensagem automatica no WhatsApp
-  - [ ] Controle de conclusão da formação
+
+- [ ] Sistema de gerenciamento de livros
+- [ ] Postagem automatica nas redes sociais
+- [ ] Mensagem automatica no WhatsApp
+- [ ] Controle de conclusão da formação
+
 ```
 Site Católico (Comunidade / Congregação / ONG)
 ├── Início (Home)
@@ -187,5 +195,7 @@ Este projeto utiliza e agradece às seguintes bibliotecas e ferramentas:
 - [sqlite3 (Node)](https://www.npmjs.com/package/sqlite3) – Driver SQLite para Node.js
 - [localForage](https://localforage.github.io/localForage/) – Armazenamento offline assíncrono para web apps
 - [storybook](https://storybook.js.org) – Ferramenta para desenvolvimento, documentação e testes de componentes de interface de forma isolada
+- [React Icons](https://react-icons.github.io/react-icons/) - Biblioteca de ícones React
+- [Motion One](https://github.com/motiondivision/motion) - Biblioteca de animações para a web
 
 > Todos os direitos pertencem aos respectivos autores e mantenedores. Este projeto apenas integra essas ferramentas conforme suas licenças.

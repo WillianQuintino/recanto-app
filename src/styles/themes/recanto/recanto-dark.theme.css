@@ -1,0 +1,47 @@
+@plugin "daisyui/theme" {
+  name: "recanto-dark";
+  default: false;
+  prefersdark: true;
+  color-scheme: dark;
+
+  --color-base-100: oklch(0.22 0.02 35); /* fundo marrom escuro */
+  --color-base-200: oklch(0.18 0.015 30);
+  --color-base-300: oklch(0.12 0.01 30);
+  --color-base-content: oklch(0.95 0.01 95); /* texto claro */
+
+  --color-primary: oklch(0.75 0.22 85); /* dourado/mostarda */
+  --color-primary-content: oklch(0.1 0.01 30); /* escuro */
+
+  --color-secondary: oklch(0.3 0.03 40); /* marrom */
+  --color-secondary-content: oklch(0.98 0.01 95); /* branco */
+
+  --color-accent: oklch(0.65 0.18 90);
+  --color-accent-content: oklch(0.15 0.02 30);
+
+  --color-neutral: oklch(0.15 0.01 30);
+  --color-neutral-content: oklch(0.95 0.01 95);
+
+  --color-info: oklch(0.7 0.2 240);
+  --color-info-content: oklch(0.98 0.01 240);
+
+  --color-success: oklch(0.65 0.2 140);
+  --color-success-content: oklch(0.98 0.01 140);
+
+  --color-warning: oklch(0.8 0.25 85);
+  --color-warning-content: oklch(0.25 0.03 80);
+
+  --color-error: oklch(0.6 0.25 25);
+  --color-error-content: oklch(0.98 0.01 25);
+
+  --radius-selector: 1rem;
+  --radius-field: 0.25rem;
+  --radius-box: 0.5rem;
+
+  --size-selector: 0.25rem;
+  --size-field: 0.25rem;
+
+  --border: 1px;
+
+  --depth: 1;
+  --noise: 0;
+}

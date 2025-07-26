@@ -1,0 +1,52 @@
+@plugin "daisyui/theme" {
+  name: "nossa-senhora-dark";
+  default: false;
+  prefersdark: true;
+  color-scheme: dark;
+
+  /* Fontes */
+  --font-title: "Playfair Display", "EB Garamond", serif;
+  --font-body: "Open Sans", "Lato", "Roboto", sans-serif;
+
+  /* Paleta personalizada */
+  --color-base-100: oklch(0.18 0.02 30); /* azul marinho escurecido */
+  --color-base-200: oklch(0.15 0.02 25);
+  --color-base-300: oklch(0.12 0.015 25);
+  --color-base-content: oklch(0.97 0.01 95); /* texto claro */
+
+  --color-primary: oklch(0.83 0.18 90); /* dourado claro */
+  --color-primary-content: oklch(0.18 0.02 30); /* escuro */
+
+  --color-secondary: oklch(0.24 0.04 20); /* azul marinho */
+  --color-secondary-content: oklch(0.98 0.01 95); /* creme claro */
+
+  --color-accent: oklch(0.95 0.005 95); /* creme claro */
+  --color-accent-content: oklch(0.18 0.02 40);
+
+  --color-neutral: oklch(0.2 0.04 20); /* azul marinho profundo */
+  --color-neutral-content: oklch(0.98 0.01 95);
+
+  --color-info: oklch(0.7 0.2 240);
+  --color-info-content: oklch(0.98 0.01 240);
+
+  --color-success: oklch(0.65 0.2 140);
+  --color-success-content: oklch(0.98 0.01 140);
+
+  --color-warning: oklch(0.9 0.15 85); /* dourado mais claro */
+  --color-warning-content: oklch(0.25 0.03 80);
+
+  --color-error: oklch(0.45 0.25 25); /* vinho litúrgico */
+  --color-error-content: oklch(0.98 0.01 95);
+
+  /* Estética */
+  --radius-selector: 1rem;
+  --radius-field: 0.25rem;
+  --radius-box: 0.5rem;
+
+  --size-selector: 0.25rem;
+  --size-field: 0.25rem;
+
+  --border: 1px;
+  --depth: 1;
+  --noise: 0;
+}
