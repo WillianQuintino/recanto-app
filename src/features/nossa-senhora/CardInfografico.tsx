@@ -14,7 +14,7 @@ export default function CardInfografico(item: typeof infograficoData[number]) {
       viewport={{ once: true, amount: 0.4 }}
       className="break-inside-avoid pl-4 flex flex-col items-start gap-4 bg-base-100 p-2"
     >
-      <h3 className="w-full bg-primary rounded-lg px-3 text-xl font-display text-primary-content font-semibold">
+      <h3 className="w-full bg-primary rounded-lg px-3 text-xl font-display text-secondary font-semibold">
         {id}. {title}
       </h3>
       <div>
